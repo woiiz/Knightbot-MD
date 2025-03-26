@@ -4,7 +4,7 @@
   "description": "WhatsApp Bot",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "export LD_LIBRARY_PATH=/app/.apt/usr/lib:/app/.apt/usr/lib/x86_64-linux-gnu && export PATH=/app/.apt/usr/bin:$PATH && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "docker:build": "docker build -t knightbot .",
     "docker:run": "docker run -e SESSION_ID=$SESSION_ID knightbot"
