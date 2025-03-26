@@ -1,7 +1,4 @@
 ffmpeg
-libpulse0
-libpulse-dev
-libasound2
-libasound2-plugins
 libavcodec-extra
-libavutil58
+libpulse0
+libasound2-plugins
